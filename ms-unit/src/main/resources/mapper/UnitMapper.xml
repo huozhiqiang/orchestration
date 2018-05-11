@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yss.ms.mapper.UnitMapper">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.yss.ms.entity.Unit" id="unitMap">
+        <result property="id" column="fid"/>
+        <result property="unitName" column="funit_name"/>
+        <result property="unitId" column="funit_id"/>
+        <result property="unitAddress" column="funit_address"/>
+        <result property="propertyCode" column="fproperty_code"/>
+        <result property="corporateRep" column="fcorporate_rep"/>
+        <result property="email" column="femail"/>
+        <result property="postCode" column="fpost_code"/>
+        <result property="tel" column="ftel"/>
+        <result property="contactp" column="fcontactp"/>
+        <result property="contactpTel" column="fcontactp_tel"/>
+        <result property="creatorId" column="fcreator_id"/>
+        <result property="createTime" column="fcreate_time"/>
+        <result property="lastEditorId" column="flast_editor_id"/>
+        <result property="lastEditTime" column="flast_edit_time"/>
+        <result property="deletorId" column="fdeletor_id"/>
+        <result property="deleteTime" column="fdelete_time"/>
+        <result property="deleted" column="fdeleted"/>
+        <result property="checkStates" column="fcheck_states"/>
+        <result property="checkerId" column="fchecker_id"/>
+        <result property="checkerTime" column="fchecker_time"/>
+    </resultMap>
+
+</mapper>
